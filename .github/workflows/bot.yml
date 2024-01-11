@@ -1,8 +1,9 @@
 name: Run Python Script Hourly
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # Runs at the start of every hour
+  workflow_dispatch:
+  #schedule:
+  #  - cron: '0 * * * *'  # Runs at the start of every hour
 
 jobs:
   run-script:
