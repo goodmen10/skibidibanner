@@ -1,8 +1,9 @@
 {
-    "Common": "Large Cameraman",
-    "Uncommon": "Extremely Huge Cameraman",
+    "Common": "Cameraman",
+    "Uncommon": "Huge Cameraman",
     "Rare": "Huge Cameraman",
-    "Epic": "Extremely Huge Cameraman",
+    "Epic": "Huge Cameraman",
     "Legendary": "Huge Cameraman",
-    "Mythic": "Mythic Cameraman"
+    "Mythic": "Mythic Camerawoman",
+    "Time": 1704986080.613401
 }
