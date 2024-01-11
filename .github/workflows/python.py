@@ -26,6 +26,6 @@ def pick_random_elements(source_file_path, destination_file_path):
         print(f"An error occurred: {e}")
 
 # Path to your source and destination JSON files
-source_file_path = ".github//workflows/Array.json"
-destination_file_path = ".github//workflows/current_chances.json"
+source_file_path = ".github/workflows/Array.json"
+destination_file_path = ".github/workflows/current_chances.json"
 pick_random_elements(source_file_path, destination_file_path)
