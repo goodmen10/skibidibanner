@@ -27,5 +27,5 @@ jobs:
         git commit -a -m "Updated Banner"
         git push -u origin main
 
-        git add .github/workflows/current_chances.json
+      
        
