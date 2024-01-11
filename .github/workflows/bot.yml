@@ -1,0 +1,19 @@
+name: Run Python Script Hourly
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Runs at the start of every hour
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: run
+      run: |
+        python .github/workflows/python.py

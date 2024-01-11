@@ -1,14 +1,20 @@
 {
     "Common": [
-        {"Chance": 49},
-        {"Units": [
-            "Cameraman", "Large Cameraman"
-        ]}
+        "Cameraman", "Large Cameraman"
     ],
     "Uncommon": [
-        {"Chance": 30},
-        {"Units": [
-            "Huge Cameraman", "Extremely Huge Cameraman"
-        ]}
+        "Huge Cameraman", "Extremely Huge Cameraman"
+    ],
+    "Rare": [
+        "Huge Cameraman", "Extremely Huge Cameraman"
+    ],
+    "Epic": [
+        "Huge Cameraman", "Extremely Huge Cameraman"
+    ],
+    "Legendary": [
+        "Huge Cameraman", "Extremely Huge Cameraman"
+    ],
+    "Mythic": [
+        "Huge Cameraman", "Extremely Huge Cameraman"
     ]
   }
