@@ -22,6 +22,5 @@ jobs:
         python .github/workflows/python.py
     - name: Commit and Push Changes
       run: |
-        git remote add .github/workflows/current_chances.json
         git commit -m "Update banner"
         git push -u origin main
