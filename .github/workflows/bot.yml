@@ -15,6 +15,13 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-    - name: run
+    - name: Run Python Script
       run: |
         python .github/workflows/python.py
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .github/workflows/python.py 
+        git commit -m "Update Python script"
+        git push

@@ -14,9 +14,6 @@ def pick_random_elements(source_file_path, destination_file_path):
         if all(category in data for category in categories):
             # Randomly pick one item from each category and store them
             selected_items = {category: random.choice(data[category]) for category in categories}
-             # Print the selected items
-            for category, item in selected_items.items():
-                print(f"Selected from {category}: {item}")
         else:
             missing_categories = [category for category in categories if category not in data]
             raise ValueError(f"JSON does not contain required categories: {missing_categories}")
@@ -24,9 +21,6 @@ def pick_random_elements(source_file_path, destination_file_path):
         # Write the selected items to the destination JSON file
         with open(destination_file_path, 'w') as file:
             json.dump(selected_items, file, indent=4)
-
-        with open(destination_file_path, 'r') as file:
-            print(json.load(file))
 
     except Exception as e:
         print(f"An error occurred: {e}")
