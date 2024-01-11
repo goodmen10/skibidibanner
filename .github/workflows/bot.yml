@@ -22,8 +22,9 @@ jobs:
         python .github/workflows/python.py
     - name: Commit and Push Changes
       run: |
-        git config --global user.email "projectslayershelper@gmail.com"
-        git config --global user.name "goodmen10"
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .github/workflows/current_chances.json
         git commit -a -m "Updated Banner"
         git push -u origin main
 
