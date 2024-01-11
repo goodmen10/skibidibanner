@@ -1,6 +1,6 @@
 import json
 import random
-import datetime
+import time
 
 def pick_random_elements(source_file_path, destination_file_path):
     try:
@@ -20,7 +20,7 @@ def pick_random_elements(source_file_path, destination_file_path):
             raise ValueError(f"JSON does not contain required categories: {missing_categories}")
 
         # Write the selected items to the destination JSON file
-        print(datetime.datetime.now())
+        print(time.time())
         with open(destination_file_path, 'w') as file:
             json.dump(selected_items, file, indent=4)
 
