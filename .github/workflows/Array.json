@@ -1,0 +1,14 @@
+{
+    "Common": [
+        {"Chance": 49},
+        {"Units": [
+            "Cameraman", "Large Cameraman"
+        ]}
+    ],
+    "Uncommon": [
+        {"Chance": 30},
+        {"Units": [
+            "Huge Cameraman", "Extremely Huge Cameraman"
+        ]}
+    ]
+  }
