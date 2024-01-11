@@ -1,4 +1,4 @@
-name: Run Python Script Hourly
+name: Banner Refresher
 
 on:
   workflow_dispatch:
@@ -24,7 +24,8 @@ jobs:
       run: |
         git config --global user.email "projectslayershelper@gmail.com"
         git config --global user.name "goodmen10"
-        git commit -a
+        git commit -a -m "Updated Banner"
         git push -u origin main
 
+        git add .github/workflows/current_chances.json
        
