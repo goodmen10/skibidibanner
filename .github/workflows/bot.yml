@@ -23,5 +23,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .github/workflows/current_chances.json
-        git commit -m "Update Python script"
+        git commit -m "Update banner"
         git push
