@@ -1,20 +1,20 @@
 {
     "Common": [
-        "Cameraman", "Large Cameraman"
+        "Cameraman", "Cameragirl"
     ],
     "Uncommon": [
-        "Huge Cameraman", "Extremely Huge Cameraman"
+        "Speakerman"
     ],
     "Rare": [
-        "Huge Cameraman", "Extremely Huge Cameraman"
+        "TV Man", "Cameraboy", "Army Cameraman"
     ],
     "Epic": [
-        "Huge Cameraman", "Extremely Huge Cameraman"
+        "Large Cameraman", "Large Speakerman", "Camerawoman", "Speakerwoman", "TV Woman", "Large TV Man", 
     ],
     "Legendary": [
-        "Huge Cameraman", "Extremely Huge Cameraman"
+        "Upgraded Plunger Cameraman"
     ],
-    "Mythic": [
-        "Mythic Cameraman", "Mythic Camerawoman"
+    "Secret": [
+        "Upgraded Titan Cameraman", "Upgraded Titan Speakerman", "Upgraded Titan TV Man"
     ]
   }
