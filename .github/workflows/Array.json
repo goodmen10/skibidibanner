@@ -14,7 +14,10 @@
     "Legendary": [
         "Upgraded Plunger Cameraman", "Cameragirl", "Titan TV Man", "Titan Cinemaman"
     ],
+    "Godly": [
+        "Upgraded Titan Cameraman", "Upgraded Titan Speakerman", "Titan TV Man"
+    ],
     "Secret": [
-        "Upgraded Titan Cameraman", "Upgraded Titan Speakerman", "Upgraded Titan Cinemaman", "Titan TV Man"
+       "Upgraded Titan Cinemaman"
     ]
   }
