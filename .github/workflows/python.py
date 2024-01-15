@@ -10,7 +10,7 @@ def pick_random_elements(source_file_path, destination_file_path):
             data = json.load(file)
 
         # Categories to pick from
-        categories = ['Common', 'Uncommon', 'Rare', 'Epic', 'Legendary', 'Secret']
+        categories = ['Common', 'Uncommon', 'Rare', 'Epic', 'Legendary', 'Godly', 'Secret']
         # Ensure all categories are present
         if all(category in data for category in categories):
             # Randomly pick one item from each category and store them
