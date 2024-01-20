@@ -1,9 +1,8 @@
 name: Banner Refresher
 
 on:
-  workflow_dispatch:
-  #schedule:
-  #  - cron: "*/5 * * * *" #'0 * * * *'  # Runs at the start of every hour
+  schedule:
+  - cron:  '0 * * * *'  # Runs at the start of every hour
 
 permissions:
   actions: write
