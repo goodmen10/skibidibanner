@@ -1,10 +1,10 @@
 {
     "Common": "Cameraman",
     "Uncommon": "Speakerman",
-    "Rare": "Engineer Cameraman",
-    "Epic": "Large TV Man",
-    "Legendary": "Helicopter Speaker",
-    "Godly": "Titan TV Man",
+    "Rare": "TV Man",
+    "Epic": "Speakerwoman",
+    "Legendary": "TV Woman",
+    "Godly": "Upgraded Titan Speakerman",
     "Secret": "Upgraded Titan Cinemaman",
-    "Time": 1754219996.8824582
+    "Time": 1754225327.8509305
 }
